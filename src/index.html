@@ -3,10 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>ESP32 Server</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <h1>Hello World</h1>
+  <body class="relative h-screen" style="background-image: url('https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg'); background-size: cover;">
+    <span class="bg-black/50 absolute inset-0 h-screen z-10"></span>
+    <div class="relative z-20 h-screen style="display: flex; justify-content: center; flex-direction: column; ">
+      <div class="text-center my-auto">
+        <h1 class="font-bold text-zinc-200" style="font-size: 100px; -webkit-text-stroke: 5px black; display: inline;">ESP32 Server</h1>
+      </div>
+      <div class="flex justify-center">
+        <span class="px-3 py-2 mx-auto bg-blue-600/50 text-white font-bold rounded-xl">
+          In Running Mode
+        </span>
+      </div>
+    </div>
   </body>
 </html>

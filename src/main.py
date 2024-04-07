@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return send_file('index.html')
 
-@app.route("/api", methods=["POST"])
+@app.route("/", methods=["POST"])
 def api():
     # Print request body
     print("Request body: ")
