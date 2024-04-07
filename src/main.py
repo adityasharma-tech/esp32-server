@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def index():
+    print("GET received at '/'")
     return send_file('index.html')
 
 @app.route("/", methods=["POST"])
